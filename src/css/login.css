@@ -1,0 +1,53 @@
+#login
+{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:30%;
+    transform: translate(-50%, -50%);
+    padding: 150px;
+    border-radius: 10%;
+
+    background-image: linear-gradient(red,rgb(210, 142, 87));
+   
+}
+#tophead
+{
+    font-size: 40px;
+    font-family: sans-serif;
+    color:rgb(172, 133, 166);
+    position:relative;
+    padding: 30px;
+    text-shadow: 6px 2px 5px #23430C;
+}
+#logo
+{
+    display: block;
+    margin-left: 50%;
+    width:250px;
+    height: 150px;
+
+    border:solid 2px cyan;
+    border-radius: 50%;
+    transform: translate(-50%);
+}
+.inputs
+{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;    
+    height: 50px;
+    width:70%;
+    font-size: 22px;
+    font-family:Impact;
+    color:rgb(75, 73, 74);
+    
+}
+::placeholder
+{
+    color:rgb(75, 73, 74);
+    opacity: 1;
+}

@@ -1,0 +1,73 @@
+.bg-dark
+{
+    transition-delay: 50ms;
+    background-color: rgb(71, 70, 70)!important;
+    color:white!important;
+}
+.bg-light
+{
+    transition-delay: 50ms;
+    background-color:white!important;
+    color:black!important;
+}
+
+.Body
+{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    
+    
+    left:0px;
+    right:0px;
+
+
+}
+
+footer{
+    position:relative;
+    background-color: rgb(24, 24, 9);
+    margin-bottom: 0px;
+    margin-top:120vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    
+}
+.btn-des
+{
+    width:100px;
+    height: 40px;
+    border-radius: 20%;
+    font-size: 110%;
+}
+.btn-dark{
+    background-color: rgb(104, 47, 47);
+    color:cyan;
+    
+}
+.Header
+{   
+    text-align: left;
+    color: rgb(182, 67, 67);
+    font-family:serif;
+    font-size: 20px;
+    padding:4px;
+}
+
+#mode
+{
+    height: 20px;
+    width: 40px;
+}
+.br-cyan
+{
+    border: solid 5px cyan;
+    transition-delay: 50ms;
+}
+.br-dark
+{
+    border: solid 5px rgb(29, 31, 68);
+    transition-delay: 50ms;
+}

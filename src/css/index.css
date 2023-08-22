@@ -13,34 +13,43 @@
 
 .Body
 {
+    display:flex ;
     position: absolute;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
-    
-    left:0px;
-    right:0px;
+    flex-direction: column;
+    min-height: 100%;
+    max-height: 100%;
+    gap: 2rem;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 
 
 }
 
 footer{
-    position:relative;
+    align-self: flex-end;
+    width: 100%;
     background-color: rgb(24, 24, 9);
-    margin-bottom: 0px;
-    margin-top:120vh;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     color:white;
+    font-size: 70%;
     
 }
+
 .btn-des
 {
     width:100px;
     height: 40px;
     border-radius: 20%;
     font-size: 110%;
+    transition: transform .2s ease-in;
+}
+.btn-des:hover{
+    transform: scale(1.2);
 }
 .btn-dark{
     background-color: rgb(104, 47, 47);
@@ -56,11 +65,7 @@ footer{
     padding:4px;
 }
 
-#mode
-{
-    height: 20px;
-    width: 40px;
-}
+
 .br-cyan
 {
     border: solid 5px cyan;
@@ -71,3 +76,15 @@ footer{
     border: solid 5px rgb(29, 31, 68);
     transition-delay: 50ms;
 }
+
+
+
+
+
+
+
+
+
+
+
+

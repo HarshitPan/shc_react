@@ -1,18 +1,21 @@
 
 import Header from "./Components/header";
-import Login from "./Components/login";
+import Login from "./Components/Login";
 import Footer from "./Components/footer";
 import { useState } from 'react';
-
 
 import './css/index.css';
 import './css/login.css';
 
 let mode='bg-dark'
 var bdr='br-cyan'
-function App() {
 
+
+
+function App() {
+  
   const[cmode,setMode]= useState(mode);
+  
   const changeMode= ()=>{
     console.log("Enter1")
     console.log("Enter2")
@@ -33,9 +36,8 @@ function App() {
   return (
     
     <div className={"Body "+ cmode}>
-      <button id="mode" onClick={changeMode}/>
-    <Login/>
-    <Footer/>
+      
+      <Login bdr={bdr}/>
     </div>
   );
 }

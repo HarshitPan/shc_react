@@ -1,39 +1,64 @@
 #login
 {
-    
     display: flex;
-    flex-wrap: wrap ;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 40%;
-    min-width: fit-content;
-    height: 80%;
+    width: fit-content;
+    min-width: 30%;
+    height: fit-content;
     overflow: hidden;
+    opacity: 1;
     border-radius: 30% 20px 30% 20px;
+    transition: all 1.5s ease-in-out;
+    box-shadow: 20px 20px 20px black;
     background-image: linear-gradient(red,rgb(210, 142, 87));
    
 }
-#loginOpt
+#signup{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    min-width: 30%;
+    transform: rotateY(180deg);
+    height: fit-content;
+    overflow: hidden;
+    opacity:0;
+    border-radius: 20px 30% 20px 30%;
+    transition: all 1.5s ease-in-out;
+    box-shadow: 20px 20px 20px black;
+    background-image: linear-gradient(red,rgb(210, 142, 87));
+}
+
+
+#loginOpt, #signOpt
 {
-    width:130px;
+    width:fit-content;
     /* height: 50px; */
     border-radius: 20px 10px 0px ;
     font-size: 110%;
     align-self: flex-end;
     background-color: cyan;
     color: rgb(184, 55, 35);
-    font-family: 'Times New Roman', Times, serif;
+    font-family:sans-serif;
     transition: transform .5s;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     box-shadow: 15px 8px 5px rgb(92, 90, 90);
 
 }
+#signOpt
+{
+    align-self: flex-start;
+}
 #loginOpt:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     
 }
+
 #tophead
 {
     font-size: 40px;
@@ -79,4 +104,3 @@
     color:rgb(75, 73, 74);
     opacity: 1;
 }
-
